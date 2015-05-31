@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/libs/aws-android-sdk-2.1.5-sqs.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bbe2d0e04b7ac44a5ba6b846bd2e30e593e54017">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.5-sqs-27858f2cd24c9144f96c0d8bccc32d1a9e47c8a3.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/classes-0b116824292e0cc316e064f612b1555075c422b2.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-9b066bf43b1e96d2cf97edb666b272f2f98d2202.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-01795d01e1148fe7e162cf17734038ca9ee02127.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/libs/aws-android-sdk-2.1.5-ec2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bcbe8675554e66767d09f46bf02faf7fe78aac34">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.5-ec2-af46bbdbfe2ec34b0a2d755eae7ba87251257512.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/libs/aws-android-sdk-2.1.5-ddb-mapper.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fc080ea2a79fbf581746d4ce7182c87891fafbc6">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.5-ddb-mapper-1fc8302d1169171ab6c723d5e2b7145724fbdaf8.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/libs/aws-android-sdk-2.1.5-elb.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="60465a26a7ad3dff4d9170bcd78189b6377ff538">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.5-elb-0e704bf9b14fe13848b260f13e64c8bf06b8c799.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/libs/aws-android-sdk-2.1.5-ddb.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29d9d4737eb04dc4930f545e75f461d5518bd69b">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.5-ddb-85131428049218d6ca97175a099177ebfcf34bfc.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/libs/aws-android-sdk-2.1.5-cognito.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b11d40bc0d12c00eb44855332bd18ceee2e7b3f8">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.5-cognito-2066247e289e0877c8bd377f0c0c0bca69d2671a.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/classes-dcec3c6a1211095775734ef73b3af6d5b05aea4b.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/libs/aws-android-sdk-2.1.5-sns.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f3bd966a6446d7f77e7a610cb557cacbe3344651">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.5-sns-6294f429904acd3e49bb2bfef20a3961f5aad0b6.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/libs/aws-android-sdk-2.1.5-autoscaling.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="02a62e9ccfc97d278793f3ed15770db143999e2a">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.5-autoscaling-30afee1a0ab79cd53384622c0ec79e946e9e9546.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/libs/org.apache.commons.io.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b90b6ac57cf27a2858eaa490d02ba7945d18ca7b">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/org.apache.commons.io-835bac59b115f664eba88c5948a127f8e838a3bf.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/libs/aws-android-sdk-2.1.5-s3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8bba90514ec8bb7e069a46d07ef99c8d9b1cc02a">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.5-s3-689450a579d1b1c3256fd3cd5da5607b0c80f589.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/libs/aws-android-sdk-2.1.5-ses.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2e325df78c589f86c8f4a61be9f250c07d71879c">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.5-ses-a3ccd4892c779172aa6a0b911b507733750b5486.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/libs/aws-android-sdk-2.1.5-cloudwatch.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ceaf9e6dea69a5950c2a7f66f66dc0bdd276bb57">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.5-cloudwatch-c71235be8bf3a3bfdf759c59ea91b86019ffe97c.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/classes-224b8c7b9652ba45032b2e2944d3ec05a18a3bd4.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="90a3822c38ec8c996e84c16a3477ef632cbc87a3">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/commons-lang3-3.3.2-e35c16fd52163e5c07bd1f8c73d573ac9c9ab1c0.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0f254ec13d6671680482d2218f01ecf14dfa93e6">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/classes-7ded830b2e14eba65c6462e57087653784ff6643.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/libs/aws-android-sdk-2.1.5-sdb.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00af8e4b51d5d0bc3e400ff08de0c908e31859ee">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.5-sdb-a1441d7f3b733d4b7218d38ea7ca15956d363927.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/gson-2.3.1-454fd6080f0f863c789089ec70e1531d8a2a12ff.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/library-2.4.0-7162f734353660aeda9f31a7d9317f8dda007b61.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/classes-134d68a108bf8c61e6dbd1d6acf2696545f5f0a2.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/libs/android-support-v7-cardview.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ce500acc060628ff356dedd66877b6c8a8a4056">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/android-support-v7-cardview-38a7c420db18595e746925307eff16166ad0b16b.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.3/a85588bec3e2c4584d593d3f15df1677321bca72/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3-8f65d23b3a77e4b4f2b00bfdf884f7b2a922bdac.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/exploded-aar/com.sothree.slidinguppanel/library/2.0.4/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e546fc8dc1f68c39d41c544e2155c797b558492">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/classes-fdab5b3406c9bcf8c86cd113d540c2cf2507d02c.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/libs/quick-json-1.0.2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6c4f770696a76cac01f2ce2c68de239a6bc072bd">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/quick-json-1.0.2.3-af4b5f08a4189eff94cc78c53b3e28cbad6e50eb.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/libs/aws-android-sdk-2.1.5-core.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dad102c5f28367f5b72057bd3174644d0d03be31">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.5-core-eb96695b87f20adde36239bbce48f4cbbc51be81.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/classes-0cbc9e040ef886fd1d4fa12014ddd506775f0de3.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/libs/aws-android-sdk-2.1.5-kinesis.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6bf2881336aef2e78c20640ec1065150e972a859">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.5-kinesis-039f6f9a7ffba615f5c680e66ec7919c3bed822c.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/libs/aws-android-sdk-2.1.5-mobileanalytics.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e2de06c91e784575b4985768e16f1877a5252ee4">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.5-mobileanalytics-88a91d143ba96d7ea50cbafdf7af84c5e148820f.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-4f25b9b5187b67ce1da87a7780c435412cc2bcc5.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/gurkarangulati/Desktop/Yapster/app/build/intermediates/pre-dexed/debug/classes-9cf90c02c681445369cebef82394fef1b66e29fe.jar/classes.dex" />
+    </item>
+
+</items>

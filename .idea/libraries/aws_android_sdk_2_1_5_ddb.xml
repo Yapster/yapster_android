@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="aws-android-sdk-2.1.5-ddb">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/aws-android-sdk-2.1.5-ddb.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
