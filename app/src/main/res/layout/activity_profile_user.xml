@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewProfileScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutForProfileScreen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutForUserLibraries"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="300dp"
+            android:background="@color/yapster_light_grey_2"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/relativeLayoutForUserLibrarySectionTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/textViewUserLibraryTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Libraries"
+                    android:textColor="@color/yapster_light_grey"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/textViewUserLibrariesNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="(3)"
+                    android:textColor="@color/yapster_light_grey"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayoutForListViewUserLibrariesTableOfContents"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="0dp" >
+
+                <ListView
+                    android:id="@+id/listViewUserLibrariesTableOfContents"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true"
+                    android:isScrollContainer="false"
+                    android:visibility="invisible" >
+                </ListView>
+
+                <ProgressBar
+                    android:id="@+id/progressBarForListViewUserLibrariesTableOfContents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:indeterminate="true"
+                    android:indeterminateDrawable="@drawable/rotate_spinning_progress_bar_yapster_green"
+                    android:max="100"
+                    android:progress="50"
+                    android:progressDrawable="@drawable/rotate_spinning_progress_bar_yapster_green"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayoutForAreaForListViewUserLibrariesIndividuals"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-20dp" >
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayoutForListViewUserLibrariesIndividuals"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/white"
+                    android:minHeight="200dp"
+                    android:visibility="invisible" >
+
+                    <ListView
+                        android:id="@+id/listViewUserLibrariesIndividuals"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@android:color/white"
+                        android:animateLayoutChanges="true"
+                        android:isScrollContainer="false"
+                        android:visibility="invisible" >
+                    </ListView>
+                </RelativeLayout>
+
+                <ProgressBar
+                    android:id="@+id/progressBarForListViewUserLibrariesIndividuals"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:indeterminate="true"
+                    android:indeterminateDrawable="@drawable/rotate_spinning_progress_bar_yapster_green"
+                    android:max="100"
+                    android:progress="50"
+                    android:progressDrawable="@drawable/rotate_spinning_progress_bar_yapster_green"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageViewUserProfilePicture"
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="imageViewUserProfilePicture"
+            android:scaleType="centerCrop"
+            android:transitionName="userProfilePicture" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutUserInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="241dp"
+            android:background="@drawable/shape_picture_text_gradient"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/textViewUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Baby Alpaca"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:transitionName="userName" />
+
+            <LinearLayout
+                android:id="@+id/relativeLayoutLocationAndSubscribersNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewUserName"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textViewLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New York, NY"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutWhiteDividingBar1"
+                    android:layout_width="1dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textViewSubscribers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="22.2K Subscribers"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/imageButtonSubscribeToUser"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_alignBottom="@id/imageViewUserProfilePicture"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="-25dp"
+            android:layout_marginRight="10dp"
+            android:animateLayoutChanges="true"
+            android:background="@drawable/ripple_green_floating_button"
+            android:stateListAnimator="@anim/button_floating_elevation"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_add_white"
+            android:elevation="1dp"/>
+    </RelativeLayout>
+
+</ScrollView>

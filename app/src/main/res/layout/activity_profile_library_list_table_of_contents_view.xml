@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/yap_relative_layout_row_background_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutUserProfileImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:id="@+id/imageViewLibraryImage"
+            android:layout_width="55dip"
+            android:layout_height="55dip"
+            android:contentDescription="profile picture"
+            android:src="@drawable/drake1" >
+        </ImageView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewLibraryDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewLibraryTitle"
+        android:layout_below="@+id/textViewLibraryTitle"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:text="This is a test description about this library that is posted over here."
+        android:textColor="@color/yapster_light_grey"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewLibraryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@+id/linearLayoutUserProfileImage"
+        android:layout_toRightOf="@+id/linearLayoutUserProfileImage"
+        android:text="This Is A Testing Title To A Library"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="12sp" />
+
+</RelativeLayout>

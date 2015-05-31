@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/yapster_transparent_green_3">
+</ripple><!-- From: file:/Users/gurkarangulati/Desktop/Yapster/app/src/main/res/drawable/ripple_yapster_green.xml -->

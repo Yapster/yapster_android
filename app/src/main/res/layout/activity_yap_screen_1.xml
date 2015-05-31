@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayoutForScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewTimeLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/imageButtonYap"
+        android:gravity="center"
+        android:text="00:00"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonYap"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:elevation="1dp"
+        android:src="@drawable/mic_white"
+        android:scaleType="center"
+        android:background="@drawable/ripple_green_floating_button"
+        android:stateListAnimator="@anim/button_floating_elevation"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutBottomButtonsBar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/imageButtonYap"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButtonPlayOrPause"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/ic_play_black"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:visibility="visible"/>
+        <ImageButton
+            android:id="@+id/imageButtonTrash"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/ic_trash_black"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:visibility="visible"/>
+        <ImageButton
+            android:id="@+id/imageButtonExtra"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/ic_trash_black"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

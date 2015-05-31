@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayoutLibraryCard1Yap1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/yap_relative_layout_row_background_selector"
+    android:clickable="true" >
+
+    <TextView
+        android:id="@+id/textViewLibraryYapTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_toLeftOf="@+id/relativeLayoutForYapPicture"
+        android:text="Title of Yap"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:maxLines="2"/>
+
+    <TextView
+        android:id="@+id/textViewLibraryYapDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewLibraryYapTitle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="1dp"
+        android:text="Date of Yap"
+        android:textColor="@color/light_black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewLibraryYapDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewLibraryYapDate"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingBottom="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/relativeLayoutForYapPicture"
+        android:text="This is a description of the library you are looking at currently that will describe the yap to you."
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:maxLines="2"/>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutForYapPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:visibility="visible" >
+
+    </RelativeLayout>
+
+</RelativeLayout>

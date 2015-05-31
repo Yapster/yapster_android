@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@+id/imageViewUserPicture"
+        android:text="Full Name"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:maxLines="2"/>
+
+    <TextView
+        android:id="@+id/textViewUserDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewUserName"
+        android:layout_below="@+id/textViewUserName"
+        android:layout_marginRight="20dp"
+        android:paddingBottom="12dp"
+        android:layout_marginTop="10dp"
+        android:text="This is a description of the User you are looking at currently that will describe the user to you."
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:maxLines="2"/>
+
+    <ImageView
+        android:id="@+id/imageViewUserPicture"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:visibility="visible"
+        android:src="@drawable/default1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/textViewUserName"/>
+
+</RelativeLayout>

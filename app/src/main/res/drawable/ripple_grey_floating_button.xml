@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@android:color/white">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/yapster_light_grey_4"/>
+        </shape>
+    </item>
+</ripple><!-- From: file:/Users/gurkarangulati/Desktop/Yapster/app/src/main/res/drawable/ripple_grey_floating_button.xml -->

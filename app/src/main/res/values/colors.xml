@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="yapster_green">#15D400</color>
+    <color name="yapster_green_2">#095405</color>
+    <color name="yapster_green_3">#D915D400</color>
+    <color name="yapster_transparent_green_1">#3315D400</color>
+    <color name="yapster_transparent_green_2">#0015D400</color>
+    <color name="yapster_transparent_green_3">#8015D400</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_transparent_1">#33ffffff</color>
+    <color name="white_transparent_2">#00ffffff</color>
+    <color name="yapster_light_grey">#b3b3b3</color>
+    <color name="yapster_light_grey_2">#f2f2f2</color>
+    <color name="yapster_light_grey_3">#bbbbbb</color>
+    <color name="yapster_light_grey_4">#cccccc</color>
+    <color name="transparent_white_1">#66ffffff</color>
+    <color name="facebook_blue">#3b5998</color>
+    <color name="twitter_logo_blue">#00aced</color>
+    <color name="twitter_verified_blue">#1dcaff</color>
+    <color name="light_black">#57000000</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="transparent_black_1">#59000000</color>
+
+</resources>

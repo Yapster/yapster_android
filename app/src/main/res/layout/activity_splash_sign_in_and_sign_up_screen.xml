@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayoutForScreen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/yapster_green"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewYapsterTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:text="@string/yapster"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:transitionName="yapster_logo" />
+
+    <ProgressBar
+        android:id="@+id/progressBarForSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/rotate_spinning_progress_bar_white"
+        android:max="100"
+        android:progress="50"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutForTheRestOfTheScreen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp">
+
+        <LinearLayout
+            android:layout_width="230dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@android:color/transparent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editTextInputtedEmailOrUsername"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/layer_list_sign_in_and_sign_up_edit_text_bar_color"
+                    android:hint="@string/sign_in_sign_up_screen_email_username"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="0dp"
+                    android:textColor="@android:color/white"
+                    android:textCursorDrawable = "@null"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/whiteBoxHorizontalBar"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/transparent"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editTextInputtedPassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/layer_list_sign_in_and_sign_up_edit_text_bar_color"
+                    android:hint="@string/sign_in_sign_up_screen_password"
+                    android:inputType="textPassword"
+                    android:paddingLeft="10dp"
+                    android:textCursorDrawable="@null"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonSignIn"
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@color/transparent_white_1"
+            android:text="@string/sign_in_sign_up_screen_sign_in"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/buttonSignUp"
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@color/transparent_white_1"
+            android:text="@string/sign_in_sign_up_screen_sign_up"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/buttonForgotPassword"
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/transparent"
+            android:text="@string/sign_in_sign_up_screen_forgot_password"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/buttonContinueWithoutSignUp"
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/transparent"
+            android:text="Continue Without Signing Up"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutYapsterFooter"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp" >
+
+            <TextView
+                android:id="@+id/textViewFooter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center"
+                android:text="@string/sign_in_sign_up_screen_yapster_footer"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

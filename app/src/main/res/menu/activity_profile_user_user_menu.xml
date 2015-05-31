@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@drawable/ic_search_yapster_green"
+        android:showAsAction="never"
+        android:title="@string/action_edit"/>
+    <item
+        android:id="@+id/action_report"
+        android:icon="@drawable/ic_search_yapster_green"
+        android:showAsAction="never"
+        android:title="@string/action_report_bug"/>
+
+    <item
+        android:id="@+id/action_help"
+        android:icon="@drawable/ic_search_yapster_green"
+        android:showAsAction="never"
+        android:title="@string/action_help"/>
+</menu>

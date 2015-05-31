@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yapster_light_grey_2">
+
+    <TextView
+        android:id="@+id/usersNumberLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:text="Users: (5)"
+        android:textSize="14sp"/>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutForViewAllSubscribedUsersScreen"
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minHeight="100dp"
+        android:background="@android:color/white">
+
+        <ProgressBar
+            android:id="@+id/progressBarForLoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/rotate_spinning_progress_bar_yapster_green"
+            android:max="100"
+            android:progress="50"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible" />
+
+        <ListView
+            android:id="@+id/listViewAllSubscribedUsers"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:dividerHeight="1dp"
+            android:divider="@color/yapster_light_grey"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

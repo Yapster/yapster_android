@@ -1,0 +1,10 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/yapster_green">
+    <item>
+        <selector>
+            <item android:state_pressed="true" android:drawable="@drawable/ic_player_play_yapster_green"/>
+            <item android:state_pressed="false" android:drawable="@drawable/ic_player_player_black"/>
+        </selector>
+    </item>
+</ripple>
+<!-- From: file:/Users/gurkarangulati/Desktop/Yapster/app/src/main/res/drawable/ripple_player_play_black_button.xml -->

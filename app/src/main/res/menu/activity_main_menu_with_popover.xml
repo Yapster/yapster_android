@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_search_yapster_green"
+        android:showAsAction="always"
+        android:title="@string/action_search"/>
+
+    <item
+        android:id="@+id/menu_overflow"
+        android:icon="@drawable/ic_action_more_green"
+        android:showAsAction="ifRoom"
+        android:title="More"/>
+
+</menu>

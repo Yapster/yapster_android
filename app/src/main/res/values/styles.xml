@@ -1,0 +1,105 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Material">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="ThemeSplashScreen" parent="android:Theme.Material.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorPrimary">@android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@color/transparent_black_1</item>
+        <item name="android:textColor">@android:color/white</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material">
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="android:colorPrimary">@android:color/white</item>-->
+        <!--<item name="android:textColorPrimary">@color/yapster_green</item>-->
+        <!--&lt;!&ndash; darker variant for the status bar and contextual app bars &ndash;&gt;-->
+        <!--<item name="android:colorPrimaryDark">@android:color/white</item>-->
+        <!--<item name="android:statusBarColor">@android:color/white</item>-->
+        <!--&lt;!&ndash; theme UI controls like checkboxes and text fields &ndash;&gt;-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowActionBarOverlay">true</item>-->
+        <!--<item name="android:windowContentTransitions">true</item>-->
+        <!--<item name="android:windowAllowEnterTransitionOverlap">true</item>-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorPrimary">@android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@color/transparent_black_1</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+    </style>
+
+    <!-- Application MainActivityScreenTheme Screen theme. -->
+    <style name="MainActivityScreenTheme" parent="Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorPrimary">@android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:popupMenuStyle">@style/MainActivityPopupMenuStyle</item>
+    </style>
+
+    <!-- Application Profile Screen theme. -->
+    <style name="AppProfileScreenTheme" parent="android:Theme.Material">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorPrimary">@android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@color/transparent_black_1</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+    </style>
+
+    <!-- Application Yap Screen theme. -->
+    <style name="AppYapScreenTheme" parent="android:Theme.Material.Light">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorPrimary">@android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@color/transparent_black_1</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowSoftInputMode">stateUnchanged</item>
+    </style>
+
+    <style name="MainActivityPopupMenuStyle" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@android:color/white</item>
+        <item name="android:popupElevation">4dp</item>
+    </style>
+    <style name="ActionBarToolbarTheme" parent="android:Widget.Material.Toolbar">
+
+    </style>
+
+</resources>

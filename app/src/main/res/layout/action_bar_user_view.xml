@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yapster_green">
+
+        <ImageView
+            android:id="@+id/imageViewUserProfileImage"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default1" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutUserField"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignBottom="@+id/imageViewUserProfileImage"
+            android:layout_alignTop="@+id/imageViewUserProfileImage"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@+id/imageViewUserProfileImage"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewUserFullName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Gurkaran Gulati"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textViewUserUsername"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="\u0040gurkarangulati"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+</RelativeLayout>

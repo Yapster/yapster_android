@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_focused="true" android:color="@color/yapster_light_grey"></item>
+    <item android:state_focused="false" android:color="@color/yapster_light_grey"></item>
+
+</selector><!-- From: file:/Users/gurkarangulati/Desktop/Yapster/app/src/main/res/drawable-hdpi/selector_yap_screen_2_edit_text_bar_light_grey.xml -->
